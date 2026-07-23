@@ -1,0 +1,9 @@
+[package]
+name = "rust-for-dart-flutter-devs"
+version = "0.1.0"
+edition = "2021"
+description = "Runnable Rust examples for Dart and Flutter developers"
+license = "MIT"
+
+[dependencies]
+tokio = { version = "1", features = ["rt-multi-thread", "macros", "time"] }
