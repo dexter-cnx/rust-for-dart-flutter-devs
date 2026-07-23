@@ -27,3 +27,9 @@ doc/api/
 
 .flutter-plugins
 .flutter-plugins-dependencies
+
+# Rust build artifacts
+target/
+
+# Optional: nested Rust targets
+**/target/

@@ -16,8 +16,7 @@ final class RustNativeEngine implements NativeEngine {
     } catch (error, stackTrace) {
       return EngineFailure(
         'internal',
-        diagnostic: '$error
-$stackTrace',
+        diagnostic: '$error\n$stackTrace',
       );
     }
   }
